@@ -1,0 +1,88 @@
+body {
+	background: linear-gradient(-45deg, #86ed38, #4073ff, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+	height: 1000vh;
+  font-family: 'Kaisei Opti', serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(150, 105, 221, 0.4);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(251, 245, 245);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+h1  {
+    color: rgba(255, 255, 255, 1);    
+}
+
+h4,h5 {
+    color:rgba(255, 255, 255, 1);    
+    text-decoration: underline;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+a:link { 
+    text-decoration: none; 
+    /* color: white; */
+    font-size: 20px;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    /* color: black; */
+    font-size: 20px;}
+
+
+a:hover {
+    text-decoration: none;
+    /* color: grey; */
+    font-size: 20px; 
+}
+
+
+a:active { 
+    text-decoration: none;
+    /* color: white; */
+    font-size: 20px;
+ }
